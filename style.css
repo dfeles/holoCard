@@ -19,7 +19,7 @@
 :root {
   
   --card-aspect: 0,6563307494;
-  --card-radius: '5px';
+  --card-radius: '30px';
   --card-edge: hsl(47, 100%, 78%);
   --card-back: hsl(205, 100%, 25%);
   --card-glow: hsl(175, 100%, 90%);
@@ -64,8 +64,7 @@
   --card-glow: hsl(281, 62%,  58%);
 
 
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .card,
@@ -104,7 +103,7 @@
 .card__translater,
 .card__rotator {
   display: grid;
-  perspective: 600px;
+  perspective: 200px;
   will-change: transform;
 
   transform-origin: center;
@@ -170,6 +169,8 @@ button.card__rotator {
 .card__front,
 .card__front * {
   backface-visibility: hidden;
+  border-radius: var(--card-radius);
+  overflow: hidden;
 }
 
 .card__front {
