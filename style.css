@@ -381,10 +381,7 @@ iframe {
   padding: 0;
   margin: 0;
   display: grid;
-  background: #000017;
-
-
-  background: radial-gradient(41.18% 64.91% at 109.51% -10.06%, rgba(7, 91, 155, 0.4) 0%, rgba(199, 194, 243, 0) 100%, rgba(4, 38, 64, 0) 100%) , radial-gradient(41.01% 53.66% at 101.15% 100%, rgba(6, 205, 169, 0.4) 0%, rgba(199, 194, 243, 0) 100%, rgba(5, 84, 70, 0) 100%) , radial-gradient(68.58% 95.2% at -2.74% 92.77%, rgba(248, 59, 228, 0.3) 0%, rgba(199, 194, 243, 0) 100%, rgba(66, 6, 60, 0) 100%), #000018;
+  border-radius: 30px;
 
 }
 
